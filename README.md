@@ -345,6 +345,12 @@ Gate: CLOSED
 Required
 
     The artifact produced is properly licensed, preferably with the MIT license.
+    
+    Specs
+    1. Complete all 
+    2. Get code reviews every coouple questions
+    3. All original
+    
 
 Quality Rubric
 
@@ -355,3 +361,5 @@ To get a proper self assessment:
     Understand and write every line of code
     Ask for coaching sessions
     Get frequent code reviews
+    
+    
