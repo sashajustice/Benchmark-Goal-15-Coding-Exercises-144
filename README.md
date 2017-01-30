@@ -346,10 +346,14 @@ Required
 
     The artifact produced is properly licensed, preferably with the MIT license.
     
-    Specs
+    SPECS
+    0.Write tests
     1. Complete all 
     2. Get code reviews every coouple questions
     3. All original
+    
+   
+    
     
 
 Quality Rubric
