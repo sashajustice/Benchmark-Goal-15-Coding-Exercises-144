@@ -19,6 +19,8 @@ Even though Benchmark Goals are solo goals, the project formation algorithm will
 
 For the project review, make sure to schedule a 1:1 30 minute meeting the following week with a SEP. They will go over the code with you in real time, and give you an in person completeness/quality review.
 Specifications
+
+
 1: Guess The Number
 
 Write a program that will generate a number between 1 and 100. Your program will ask the user to guess the generated number.
