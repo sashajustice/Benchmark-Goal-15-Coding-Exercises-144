@@ -2,20 +2,23 @@ Specifications
 /*1: Guess The Number
 Write a program that will generate a number between 1 and 100. Your program will ask the user to guess the generated number.When the user types a guess, the program should tell them if they won (the guess matched the computer's number), if their guess was higher than the number the computer generated, OR if the guess was lower than the number the computer generated. Terminate the program if the user types "exit".*/
 function(randomno) {
-  var compuguess = computer guess
-  if (guess === compuguess){
-    return
+  var compuGuess = computerGuess
+  var generatedNo= correctNo
+   if (guess === compuguess) {
+    return ("You won!");
+  else if (guess > compuguess) {
+    return("guess was higher")
+  else {
+  return ( "guess < compuguess");
+}
+ }
   }
-else if (guess > compuguess || guess < compuguess) {
-  
 
-}
 
-}
-
-}
+   }
 Specifications
 /*2: Scrab-Bag
+
 
 Scrabble (the game in which players remove tiles with letters on them from a bag and use them to create words on the game board) has a set number of 100 tiles.
 
@@ -48,18 +51,47 @@ Output:
 
 3: String Indices
 
-Write a program that parses the words in a string by providing a numerical index, similar to how you would access an element in array with a numerical index.
+Write a program that parses the words in a string by providing a numerical index,
+similar to how you would access an element in array with a numerical index.
 
 Example:
 
 "Catch me outside, how about that?"
 
-If you asked for the word at index 3 you would get outside back (for the purposes of this challenge, our index will start at 1, not 0).
+If you asked for the word at index 3 you would get outside back (for the purposes
+of this challenge, our index will start at 1, not 0).
 
-If you ask for the word at index 7, your program should return an empty string ('') because the string contains only 6 words. Negative indices should also return an empty string ('').
+If you ask for the word at index 7, your program should return an empty string ('')
+because the string contains only 6 words. Negative indices should also
+return an empty string ('')."happy".split("").slice(0 + 1, 2 + 3) //=> */
+
+
+function(parseString) {
+  var string = parser;
+  .split("")
+   anyString.indexOf('new'));
+   console.log('The index of "new" from the beginning is ' +
+
+   function(parseString) {
+     var string = "I know when that hotline bling";
+     var string.split("");
+     var keyWord = "word in string"
+     var stringBreakdown = [1=I, 2=know, 3=when, 4=the, 5=hotline, 6=bling]
+      string.indexOf('stringBreakdown');
+      console.log('The index of "keyWord"  + anyString.lastIndexOf('new'));
+
+
+
+
+
+
+
+
+
 4: Fibonacci Bases
 
-Binary (base 2) numbers use 1 and 0 to represent the powers of two that can be summed to yield a base 10 (or decimal) result.
+Binary (base 2) numbers use 1 and 0 to represent the powers of two that can be
+summed to yield a base 10 (or decimal) result.
 
 For example:
 16 	8 	4 	2 	1
@@ -68,6 +100,12 @@ For example:
 10101 = 16 + 4 + 1 = 21
 
 So 10101 is binary for 19.
+
+"happy".split("").slice(0 + 1, 2 + 3) //=>
+[ 'h', 'a', 'p', 'p', 'y' ].slice(0 + 1, 2 + 3) //=>
+[ 'h', 'a', 'p', 'p', 'y' ].slice(1, 2 + 3) //=>
+[ 'h', 'a', 'p', 'p', 'y' ].slice(1, 5) //=>
+[ 'a', 'p', 'p', 'y' ]
 
 The Fibonacci Sequence has a similar property: any positive integer can be written in the form of Fibonacci numbers.
 
@@ -132,7 +170,10 @@ JSON object.
 
 Output:
 
-The search path for the string in the format shown above (each element should be joined together with -> between them.). Each element in the path will either be an integer (if indexing a list) or a string (if indexing an object).
+The search path for the string in the format shown above (each element should be
+joined together with -> between them.).
+Each element in the path will either be an integer (if indexing a list) or a string
+(if indexing an object).
 7: Who Wants A Date?
 
 According to ISO 8601 standard, the best way to format a date is:
@@ -172,13 +213,15 @@ Create an application that plays that Do–Re–Mi–Fa–So–La–Ti of the So
 Put the code into a JSBin instance to hear some sounds directly in your browser.
 
 HINT: I'm just gonna leave this here.
+
 9: Parens-B-Gone
 
 (((7))) is an expression that contains too many parentheses.
 
 How many is "too many" parentheses?
 
-If you can strip the expression of one set of parentheses, and the same expression still contains parentheses, it has too many parentheses.
+If you can strip the expression of one set of parentheses, and the same expression
+still contains parentheses, it has too many parentheses.
 
 In the above example, (7) would be the proper stripping of parentheses.
 
@@ -200,12 +243,15 @@ Example Outputs:
 
 10: Resolving Symlinks
 
-Many Unix-based systems support symbolic links (also known as symlinks). This is where one directory name is transparently mapped to another. Symbolic links can be used to 'redirect' one directory to another directory.
+Many Unix-based systems support symbolic links (also known as symlinks).
+This is where one directory name is transparently mapped to another. Symbolic
+links can be used to 'redirect' one directory to another directory.
 
-Your challenge is to resolve a given path name into its actual location given a series of symbolic links. Symbolic links can also point to other symbolic links.
+Your challenge is to resolve a given path name into its actual location given a
+series of symbolic links. Symbolic links can also point to other symbolic links.
 
 Example Input:
-
+/*
 1
 /home/private/documents:/stuff/urgent/docs
 /home/private/documents/office
@@ -231,7 +277,7 @@ Another Example Output:
 The factorial operator (!) describes the product of an integer and all the integers below it.
 
 4! -> 4 * 3 * 2 * 1 -> 24
-
+/*
 Write a function that does the reverse of this for any positive integer.
 
 Example Inputs:
@@ -259,7 +305,9 @@ efgefghiiikk -> iiikk
 
 13: Braille
 
-Your goal is to read in a string of Braille characters (definition here) and translate the word to standard English letters (you can ignore any special characters, including spaces).
+Your goal is to read in a string of Braille characters (definition here)
+and translate the word to standard English letters (you can ignore any special
+characters, including spaces).
 
 A lowered bump is a dot ('.'), and a raised bump is an upper-case 'O' character.
 
@@ -273,6 +321,23 @@ Example Output:
 
 helloworld
 
+*/
+ function braile(string) {
+   var translated = [];
+   var lowered bump = .
+   var raised bump = 0;
+  for( 1 = 0; i < string.length; i++) {
+
+
+
+  }
+
+
+
+   return string;
+
+
+ }
 14: String Permutations
 
 Prints all of the permutations of the unique characters of an input string. For example, the permutation of the word "bar" would print the following:
@@ -284,22 +349,61 @@ arb
 rba
 rab
 
+//
+    function permute(string) {
+        if (string.length === 0) {
+            return [prefix];
+        } else {
+            var out = [];
+            for (var i = 0; i < string.length; i++) {
+                var pre = string.substring(0, i);
+                var post = string.substring(i + 1);
+                out = out.concat(recur(pre + post, string[i] + prefix));
+            }
+            return out;
+        }
+    }
+//     var distinct = {};
+//     recur(string, "").forEach(function(result) {
+//         distinct[result] = true;
+//     });
+//     return Object.keys(distinct);
+// }
+
+
+/*
+
 15: Finite State Gate
 
 You just installed a new remote controlled gate, and you're having a blast playing with the remote clicker.
 
 The clicker works like this:
 
-If the gate is OPEN or CLOSED, clicking the remote will cause the it to move, until it completes the cycle of opening or closing.
+If the gate is OPEN or CLOSED, clicking the remote will cause the it to move,
+until it completes the cycle of opening or closing.
 
 Gate: Closed -> remote clicked -> Gate: Opening -> Cycle complete -> Gate: Open.
 
 If the gate is currently opening or closing, clicking the remote will make it stop where it is.
 
-When clicked again, the gate will go in the opposite direction, until the cycle is complete or the remote is clicked again.
+When clicked again, the gate will go in the opposite direction, until the cycle
+
+is complete or the remote is clicked again.
 
 The gate starts CLOSED.
+*/
+function(FiniteGate) {
+  var clicker = remoteControl
+if (gate is open) {
+ return close;
+else if( gate currently opening || or closing) {
+ return stop;
+else(gate closes opposite way if button pushed.)
+}
 
+return
+
+/*
 Example Input:
 
 remoteClicked
