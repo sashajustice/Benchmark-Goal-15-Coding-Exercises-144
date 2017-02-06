@@ -49,6 +49,21 @@ Output:
 1: B, Y, J, K, M, Q, C, Z, _
 0: X
 
+
+*/
+
+function scrabble("TILES") {
+  var letters = {10: E, 9: I, 8: A, 7: O, 5: R, N, T, 4: U, L, D, 3: G, S, 2: P, H, F, V, W, 1: B, Y, J, K, M, Q, C, Z, _, 0: X}
+  var number = 100;
+  var frequency = ;
+  var tile = letter
+
+  return tiles;
+
+}
+
+ }
+/*
 3: String Indices
 
 Write a program that parses the words in a string by providing a numerical index,
@@ -64,6 +79,7 @@ of this challenge, our index will start at 1, not 0).
 If you ask for the word at index 7, your program should return an empty string ('')
 because the string contains only 6 words. Negative indices should also
 return an empty string ('')."happy".split("").slice(0 + 1, 2 + 3) //=> */
+*/
 
 
 function(parseString) {
@@ -78,141 +94,204 @@ function(parseString) {
      var keyWord = "word in string"
      var stringBreakdown = [1=I, 2=know, 3=when, 4=the, 5=hotline, 6=bling]
       string.indexOf('stringBreakdown');
-      console.log('The index of "keyWord"  + anyString.lastIndexOf('new'));
+      console.log('The index of "keyWord"  + anyString.lastIndexOf('new));}
+
+
+      return parseString;
+
+
+/*
 
 
 
-
-
-
-
-
+*/
 
 4: Fibonacci Bases
 
-Binary (base 2) numbers use 1 and 0 to represent the powers of two that can be
-summed to yield a base 10 (or decimal) result.
+// Binary (base 2) numbers use 1 and 0 to represent the powers of two that can be
+// summed to yield a base 10 (or decimal) result.
+//
+// For example:
+// 16 	8 	4 	2 	1
+// 1 	0 	1 	0 	1
+//
+// 10101 = 16 + 4 + 1 = 21
+//
+// So 10101 is binary for 19.
+//
+// "happy".split("").slice(0 + 1, 2 + 3) //=>
+// [ 'h', 'a', 'p', 'p', 'y' ].slice(0 + 1, 2 + 3) //=>
+// [ 'h', 'a', 'p', 'p', 'y' ].slice(1, 2 + 3) //=>
+// [ 'h', 'a', 'p', 'p', 'y' ].slice(1, 5) //=>
+// [ 'a', 'p', 'p', 'y' ]
+//
+// The Fibonacci Sequence has a similar property: any positive integer can be written in the form of Fibonacci numbers.
+//
+// For example:
+// 13 	8 	5 	3 	2 	1 	1
+// 1 	1 	0 	0 	0 	0 	0
+//
+// 1100000 = 13 + 8 = 21
+//
+// So 1100000 is base Fibonacci for 21
+//
+// Write a program that converts from decimal to base Fibonacci and from Fibonacci to decimal.
 
-For example:
-16 	8 	4 	2 	1
-1 	0 	1 	0 	1
+"confused"
+.split("")
 
-10101 = 16 + 4 + 1 = 21
 
-So 10101 is binary for 19.
 
-"happy".split("").slice(0 + 1, 2 + 3) //=>
-[ 'h', 'a', 'p', 'p', 'y' ].slice(0 + 1, 2 + 3) //=>
-[ 'h', 'a', 'p', 'p', 'y' ].slice(1, 2 + 3) //=>
-[ 'h', 'a', 'p', 'p', 'y' ].slice(1, 5) //=>
-[ 'a', 'p', 'p', 'y' ]
+ 5: The Disemvowling
 
-The Fibonacci Sequence has a similar property: any positive integer can be written in the form of Fibonacci numbers.
-
-For example:
-13 	8 	5 	3 	2 	1 	1
-1 	1 	0 	0 	0 	0 	0
-
-1100000 = 13 + 8 = 21
-
-So 1100000 is base Fibonacci for 21
-
-Write a program that converts from decimal to base Fibonacci and from Fibonacci to decimal.
-5: The Disemvowling
-
-Disemvoweling means removing the vowels (a, e, i, o, u) from text.
+ Disemvoweling means removing the vowels (a, e, i, o, u) from text.
 
 Input:
 
-A string that contains several words to disemvowel. It will consist of all lowercase letters without punctuation. The only non a-z character you should handle is spaces.
+ A string that contains several words to disemvowel. It will consist of all lowercase letters without punctuation. The only non a-z character you should handle is spaces.
 
-Output:
+ Output:
 
 The disemvowled text with spaces removed.
-6: Where in the JSON?
 
-{
-    "name": "William Shakespeare",
-    "dead" : true,
-    "works" : [
-        {
-            "name" : "Romeo and Juliet",
-            "published" : 1591,
-            "isAwesome" : true
-        },
-        {
-            "name" : "Richard III",
-            "published" : 1592,
-            "isAwesome" : false
-        }
-    ],
-    "favoriteSites" : [
-        "tumblr",
-        "4chan"
-    ]
+function disemvowel(string) {
+ var sentence = [i love bananas and nutella];
+ var noVowelSentence = [];
+ var vowels = [a,e,i,o,u];
+ var letters = sentence.split("");
+  for(i= 0; i < string.length; i++) {}
+  (if sentence !== vowels) {
+   return (array.push[noVowelSentence]) {
+   }
+  }
+ }
+  return disemvowel;
+
+
+
+
+
+ 6: Where in the JSON?
+
+   {
+//     "name": "William Shakespeare",
+//     "dead" : true,
+//     "works" : [
+//         {
+//             "name" : "Romeo and Juliet",
+//             "published" : 1591,
+//             "isAwesome" : true
+//         },
+//         {
+//             "name" : "Richard III",
+//             "published" : 1592,
+//             "isAwesome" : false
+//         }
+//     ],
+//     "favoriteSites" : [
+//         "tumblr",
+//         "4chan"
+//     ]
+// }
+//
+// If you wish to find the name of the first play in the list of Shakespeare's works, the "path" to it would look like like this:
+//
+// works -> 0 -> name
+//
+// You would say that the value located at this path is "Romeo and Juliet". The value "tumblr" is located at:
+//
+// favoriteSites -> 2
+//
+// Your task is to find a user-provided key hidden in a JSON object.
+//
+// You will be given a JSON object, and you will print out the search path that leads to the value "4chan". You are allowed to use any JSON parsing libraries that you want to.
+//
+// Input:
+//
+// JSON object.
+//
+// Output:
+//
+// The search path for the string in the format shown above (each element should be
+// joined together with -> between them.).
+// Each element in the path will either be an integer (if indexing a list) or a string
+// (if indexing an object).
+
+
+
+
+*/
+// 7: Who Wants A Date?
+//
+// According to ISO 8601 standard, the best way to format a date is:
+//
+// yyyy-mm-dd
+//
+// Learners Guild's database has become corrupted with mixed up date formats.
+//
+// They can come in any of the 6 formats below:
+//
+// yyyy-mm-dd
+// mm/dd/yy
+// mm#yy#dd
+// dd*mm*yyyy
+// (month in words) dd, yy
+// (month in words) dd, yyyy
+//
+// (month in words) can be:
+//
+// Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec
+//
+// Years are restricted to 1950-2049.
+//
+// Input:
+//
+// The 1000 dates in this gist.
+//
+// Output:
+//
+// All the dates in the yyyy-mm-dd ISO 8601 standard date format.
+
+
+function date(num) {
+  var date =
+  var wrongDate =
+  var rightDate =  yyyy-mm-dd
+
 }
 
-If you wish to find the name of the first play in the list of Shakespeare's works, the "path" to it would look like like this:
+if(date
 
-works -> 0 -> name
+   !== undefined) {
+  return(rightDate.push);
+}
+rightDate.push
 
-You would say that the value located at this path is "Romeo and Juliet". The value "tumblr" is located at:
+*/
+// 8: Play it again, JavaScript!
+//
+// Create an application that plays that Do–Re–Mi–Fa–So–La–Ti of the Solfège.
+//
+// **BONUS:**Play some chords.
+//
+// Put the code into a JSBin instance to hear some sounds directly in your browser.
+//
+// HINT: I'm just gonna leave this here.
 
-favoriteSites -> 2
+function (soflege) {
+  var sounds = [Do–Re–Mi–Fa–So–La–Ti];
 
-Your task is to find a user-provided key hidden in a JSON object.
+  return sounds;
+  .this
 
-You will be given a JSON object, and you will print out the search path that leads to the value "4chan". You are allowed to use any JSON parsing libraries that you want to.
 
-Input:
+  return sounds;
+}
 
-JSON object.
 
-Output:
 
-The search path for the string in the format shown above (each element should be
-joined together with -> between them.).
-Each element in the path will either be an integer (if indexing a list) or a string
-(if indexing an object).
-7: Who Wants A Date?
 
-According to ISO 8601 standard, the best way to format a date is:
 
-yyyy-mm-dd
-
-Learners Guild's database has become corrupted with mixed up date formats.
-
-They can come in any of the 6 formats below:
-
-yyyy-mm-dd
-mm/dd/yy
-mm#yy#dd
-dd*mm*yyyy
-(month in words) dd, yy
-(month in words) dd, yyyy
-
-(month in words) can be:
-
-Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec
-
-Years are restricted to 1950-2049.
-
-Input:
-
-The 1000 dates in this gist.
-
-Output:
-
-All the dates in the yyyy-mm-dd ISO 8601 standard date format.
-8: Play it again, JavaScript!
-
-Create an application that plays that Do–Re–Mi–Fa–So–La–Ti of the Solfège.
-
-**BONUS:**Play some chords.
-
-Put the code into a JSBin instance to hear some sounds directly in your browser.
-
-HINT: I'm just gonna leave this here.
 
 9: Parens-B-Gone
 
@@ -241,6 +320,17 @@ Example Outputs:
 
 12(3)
 
+function(parentheses) {
+  var expresson = parentheses
+
+}
+for(i = 0; i < array.length; i++) {
+
+}
+if(parentheses = removed && there are still more) {
+  return("too many parenthesis");
+}
+
 10: Resolving Symlinks
 
 Many Unix-based systems support symbolic links (also known as symlinks).
@@ -251,7 +341,7 @@ Your challenge is to resolve a given path name into its actual location given a
 series of symbolic links. Symbolic links can also point to other symbolic links.
 
 Example Input:
-/*
+*
 1
 /home/private/documents:/stuff/urgent/docs
 /home/private/documents/office
@@ -262,6 +352,8 @@ Example Output:
 
 Another Example Input:
 
+*
+
 3
 /bin:/usr/bin
 /usr/bin:/usr/local/bin/
@@ -271,13 +363,14 @@ Another Example Input:
 Another Example Output:
 
 /var/log-2017/lib
-
+/*
+8=*/
 11: Lairotcaf
 
 The factorial operator (!) describes the product of an integer and all the integers below it.
 
 4! -> 4 * 3 * 2 * 1 -> 24
-/*
+
 Write a function that does the reverse of this for any positive integer.
 
 Example Inputs:
@@ -291,6 +384,21 @@ Example Output:
 720 = 6!
 
 37 NONE
+
+
+function(operator) {
+  var factorial = integer;
+  for(i = 0; i < length; i++) {
+    if(integer > 0; ) {
+      return(! + integer);
+
+          while(n < 10,000) {
+            (**2)
+            i++
+    }
+  }
+}
+*/
 12: String Me Along
 
 Given an input string, print the longest substring that contains a maximum of two unique characters.
@@ -302,6 +410,20 @@ Examples:
 ghhiiii -> hhiiii
 
 efgefghiiikk -> iiikk
+
+function(string) {
+  var longest = substring >= 2 characters;
+  if(multiplesubstring = longest) {
+    return substring furthest to right;
+
+    }
+  }
+
+}
+
+
+
+/*
 
 13: Braille
 
@@ -324,20 +446,19 @@ helloworld
 */
  function braile(string) {
    var translated = [];
-   var lowered bump = .
-   var raised bump = 0;
+   var bumpsandos = braillesymbols
+   var braille = sentence.split("");
   for( 1 = 0; i < string.length; i++) {
-
-
-
+  var braillecipher = wordstring[i];
+  if(bumpsandos[braillecipher] !== undefined) {
+    wordstring[i] = bumpsandos[braillecipher];
   }
-
-
-
-   return string;
-
+  return string;
+   }
 
  }
+
+
 14: String Permutations
 
 Prints all of the permutations of the unique characters of an input string. For example, the permutation of the word "bar" would print the following:
